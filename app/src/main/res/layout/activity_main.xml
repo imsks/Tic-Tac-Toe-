@@ -22,14 +22,17 @@
         android:id="@+id/imageView10"
         android:layout_width="713dp"
         android:layout_height="1038dp"
-        app:srcCompat="@drawable/grid"
-        tools:layout_editor_absoluteY="79dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/grid" />
 
     <LinearLayout
-        android:layout_width="480dp"
-        android:layout_height="496dp"
+        android:layout_width="719dp"
+        android:layout_height="684dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <LinearLayout
@@ -43,27 +46,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20sp"
                 android:onClick="playerTap"
-                android:tag="c0" />
+                android:padding="20sp"
+                android:tag="0" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c1" />
+                android:padding="20sp"
+                android:tag="1" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c3" />
+                android:padding="20sp"
+                android:tag="2" />
         </LinearLayout>
 
         <LinearLayout
@@ -77,27 +80,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c4" />
+                android:padding="20sp"
+                android:tag="3" />
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c0" />
+                android:padding="20sp"
+                android:tag="4" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c5" />
+                android:padding="20sp"
+                android:tag="5" />
         </LinearLayout>
 
         <LinearLayout
@@ -111,27 +114,27 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c6" />
+                android:padding="20sp"
+                android:tag="6" />
 
             <ImageView
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c7" />
+                android:padding="20sp"
+                android:tag="7" />
 
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="20"
                 android:onClick="playerTap"
-                android:tag="c8" />
+                android:padding="20sp"
+                android:tag="8" />
         </LinearLayout>
 
     </LinearLayout>
